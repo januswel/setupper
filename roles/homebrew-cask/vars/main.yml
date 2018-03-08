@@ -1,0 +1,13 @@
+---
+homebrew_cask_packages:
+  - { name: 1password }
+  - { name: alfred }
+  - { name: docker }
+  - { name: google-chrome }
+  - { name: java }
+  - { name: karabiner-elements }
+  - { name: macvim }
+  - { name: skitch }
+  - { name: slack }
+  - { name: thunderbird }
+  - { name: witch }

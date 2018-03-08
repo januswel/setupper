@@ -1,0 +1,10 @@
+---
+- name: update HomeBrew
+  homebrew: update_homebrew=yes
+
+- name: install HomeBrew Cask packages
+  homebrew_cask:
+    name={{ item.name }}
+    state={{ item.state | default('installed') }}
+  with_items:
+    "{{ homebrew_cask_packages }}"
