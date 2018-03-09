@@ -4,6 +4,7 @@ homebrew_cask_packages:
   - { name: alfred }
   - { name: docker }
   - { name: google-chrome }
+  - { name: google-japanese-ime }
   - { name: java }
   - { name: karabiner-elements }
   - { name: macvim }
