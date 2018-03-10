@@ -3,6 +3,7 @@ homebrew_cask_packages:
   - { name: 1password }
   - { name: alfred }
   - { name: docker }
+  - { name: dropbox }
   - { name: google-chrome }
   - { name: google-japanese-ime }
   - { name: java }
