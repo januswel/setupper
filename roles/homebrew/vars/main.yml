@@ -3,6 +3,7 @@ homebrew_packages:
   - { name: coreutils }
   - { name: direnv }
   - { name: git }
+  - { name: golang }
   - { name: imagemagick }
   - { name: jq }
   - { name: reattach-to-user-namespace }
