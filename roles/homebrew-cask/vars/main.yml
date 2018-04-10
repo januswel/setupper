@@ -8,6 +8,7 @@ homebrew_cask_packages:
   - { name: google-chrome }
   - { name: google-japanese-ime }
   - { name: java }
+  - { name: java8 }
   - { name: karabiner-elements }
   - { name: macvim }
   - { name: skitch }

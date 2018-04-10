@@ -2,6 +2,10 @@
 - name: update HomeBrew
   homebrew: update_homebrew=yes
 
+- name: install HomeBrew taps
+  homebrew_tap:
+    name: caskroom/versions
+
 - name: install HomeBrew Cask packages
   homebrew_cask:
     name={{ item.name }}
