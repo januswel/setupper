@@ -1,6 +1,7 @@
 ---
 homebrew_cask_packages:
   - { name: 1password }
+  - { name: android-studio }
   - { name: alfred }
   - { name: docker }
   - { name: dropbox }
