@@ -10,3 +10,5 @@ homebrew_packages:
   - { name: tmux }
   - { name: tree }
   - { name: watchman }
+  - name: universal-ctags/universal-ctags/universal-ctags
+    install_options: HEAD
