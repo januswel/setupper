@@ -10,5 +10,6 @@ homebrew_packages:
   - { name: tmux }
   - { name: tree }
   - { name: watchman }
+  - { name: pgformatter }
   - name: universal-ctags/universal-ctags/universal-ctags
     install_options: HEAD
