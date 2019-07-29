@@ -2,10 +2,15 @@
 - name: update HomeBrew
   homebrew: update_homebrew=yes
 
+- name: upgrade installed packages
+  homebrew: upgrade_all=yes
+
 - name: install HomeBrew packages
   homebrew:
     name={{ item.name }}
-    state={{ item.state | default('installed') }}
-    install_options={{ item.install_options | default('latest') }}
-  with_items:
-    "{{ homebrew_packages }}"
+    state={{ item.state | default('present') }}
+  with_items: "{{ homebrew_packages }}"
+  register: result
+  failed_when: >
+    result.failed == true and
+    'Already on' not in result.msg

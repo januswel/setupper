@@ -1,15 +1,17 @@
 ---
 homebrew_packages:
-  - { name: coreutils }
-  - { name: direnv }
-  - { name: git }
-  - { name: golang }
-  - { name: imagemagick }
-  - { name: jq }
-  - { name: reattach-to-user-namespace }
-  - { name: tmux }
-  - { name: tree }
-  - { name: watchman }
-  - { name: pgformatter }
+  - name: anyenv
+  - name: coreutils
+  - name: direnv
+  - name: git
+  - name: golang
+  - name: imagemagick
+  - name: jq
+  - name: pgformatter
+  - name: reattach-to-user-namespace
+  - name: tmux
+  - name: tree
   - name: universal-ctags/universal-ctags/universal-ctags
-    install_options: HEAD
+    state: head
+  - name: watchman
+  - name: yarn
