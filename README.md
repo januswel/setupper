@@ -2,10 +2,6 @@
 
 ## Getting Started
 
-0. Xcode
-1. HomeBrew
-2. Ansible
-
 ### Xcodes
 
 Install via [xcodes](https://github.com/XcodesOrg/xcodes).
