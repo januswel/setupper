@@ -1,17 +1,25 @@
 ---
 homebrew_packages:
-  - name: anyenv
+  # general
   - name: coreutils
-  - name: direnv
-  - name: git
-  - name: golang
+  - name: ffmpeg
   - name: imagemagick
-  - name: jq
-  - name: pgformatter
-  - name: reattach-to-user-namespace
   - name: tmux
   - name: tree
-  - name: universal-ctags/universal-ctags/universal-ctags
-    state: head
+
+  # development
+  - name: anyenv
+  - name: awscli
+  - name: deno
+  - name: direnv
+  - name: git
+  - name: gitmoji
+  - name: jq
+  - name: neovim
   - name: watchman
-  - name: yarn
+  - name: hyperfine
+  - name: xcodesorg/made/xcodes
+
+  # management
+  - name: gpg
+  - name: pinentry-mac

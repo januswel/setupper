@@ -1,17 +1,30 @@
 ---
 homebrew_cask_packages:
-  - { name: 1password }
-  - { name: android-studio }
-  - { name: alfred }
-  - { name: docker }
-  - { name: dropbox }
-  - { name: google-chrome }
-  - { name: google-japanese-ime }
-  - { name: adoptopenjdk8 }
-  - { name: karabiner-elements }
-  - { name: macvim }
-  - { name: postman }
-  - { name: skitch }
-  - { name: slack }
-  - { name: thunderbird }
-  - { name: witch }
+  # general
+  - name: 1password
+  - name: dropbox
+  - name: google-chrome
+  - name: google-japanese-ime
+  - name: macvim
+  - name: messenger
+  - name: skitch
+  - name: slack
+  - name: thunderbird
+  - name: zoom
+
+  # development
+  - name: bruno
+  - name: figma
+  - name: orbstack
+  - name: visual-studio-code
+
+  # mobile development
+  - name: android-studio
+  - name: flipper
+  - name: zulu@21
+
+  # publishing
+  - name: mactex
+
+  # game
+  - name: obs
