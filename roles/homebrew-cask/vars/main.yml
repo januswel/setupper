@@ -7,24 +7,18 @@ homebrew_cask_packages:
   - name: google-japanese-ime
   - name: macvim
   - name: messenger
-  - name: skitch
+  - name: raycast
   - name: slack
   - name: thunderbird
   - name: zoom
 
   # development
   - name: bruno
+  - name: docker
   - name: figma
-  - name: orbstack
   - name: visual-studio-code
 
   # mobile development
   - name: android-studio
   - name: flipper
-  - name: zulu@21
-
-  # publishing
-  - name: mactex
-
-  # game
-  - name: obs
+  - name: zulu
