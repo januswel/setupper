@@ -49,6 +49,16 @@ pip3 install --user ansible
 ansible-playbook -vv ./playbook.yml
 ```
 
+```sh
+~/Library/Python/3.9/bin/ansible-playbook -vv ./playbook.yml
+```
+
+Install Rosetta2 with following commands, if you want to install packages that required it.
+
+```sh
+softwareupdate --install-rosetta
+```
+
 ## References
 
 http://t-wada.hatenablog.jp/entry/mac-provisioning-by-ansible
