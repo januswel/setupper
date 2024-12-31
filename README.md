@@ -2,6 +2,14 @@
 
 ## Getting Started
 
+### Homebrew
+
+https://brew.sh
+
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
 ### Xcodes
 
 Install via [xcodes](https://github.com/XcodesOrg/xcodes).
@@ -17,19 +25,7 @@ Then type following command to agree license.
 sudo xcodebuild -license
 ```
 
-Install command line tools.
-
-```sh
-xcode-select --install
-```
-
-### Homebrew
-
-https://brew.sh
-
-```sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
+Run "Software Update" in System Settings.
 
 ### pip
 
