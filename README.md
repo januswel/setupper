@@ -7,7 +7,7 @@
 Install via [xcodes](https://github.com/XcodesOrg/xcodes).
 
 ```sh
-brew install xcodes
+brew install --cask xcodes
 xcodes install --latest
 ```
 
