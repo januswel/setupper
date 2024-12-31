@@ -32,7 +32,7 @@ Run "Software Update" in System Settings.
 https://pip.pypa.io/en/stable/installation/
 
 ```sh
-python -m ensurepip --upgrade
+python3 -m ensurepip --upgrade
 ```
 
 ### Ansible
@@ -40,7 +40,7 @@ python -m ensurepip --upgrade
 https://docs.ansible.com/ansible/2.9_ja/installation_guide/intro_installation.html#from-pip
 
 ```sh
-pip install --user ansible
+pip3 install --user ansible
 ```
 
 ## Run playbook
