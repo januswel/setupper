@@ -4,17 +4,15 @@ homebrew_packages:
   - name: coreutils
   - name: ffmpeg
   - name: imagemagick
-  - name: tmux
   - name: tree
+  - name: zsh-completions
 
   # development
-  - name: anyenv
   - name: awscli
-  - name: deno
-  - name: direnv
   - name: git
   - name: gitmoji
   - name: jq
+  - name: mise
   - name: neovim
   - name: watchman
   - name: hyperfine

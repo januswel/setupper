@@ -2,12 +2,10 @@
 homebrew_cask_packages:
   # general
   - name: 1password
-  - name: dropbox
   - name: google-chrome
   - name: google-japanese-ime
   - name: karabiner-elements
-  - name: macvim
-  - name: messenger
+  - name: macvim-app
   - name: raycast
   - name: slack
   - name: thunderbird
